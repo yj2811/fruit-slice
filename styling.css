@@ -59,7 +59,7 @@ html{
   display: none;
 }
 
-#question{
+#fruitContainer{
   width: 750px;
   height: 450px;
   margin: 75px auto 15px auto;
@@ -73,6 +73,8 @@ html{
   line-height: 250px;
   font-family: "Comic Sans MS", cursive, sans-serif;
   color: black;
+  position: relative;
+  overflow: hidden;
 }
 
 #instruction{
@@ -202,4 +204,15 @@ html{
   left: 200px;
   z-index: 2;
   display: none;
+}
+
+.life{
+    width: 25px;
+    height: 25px;
+    margin: 0 7.5px;
+}
+
+.fruit{
+    display: none;
+    position: absolute;
 }
